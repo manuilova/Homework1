@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="SuitFinancialCalculator" verbose="1" >
+
+  <test name="financial.calculator.CreditCalculator" >
+    <classes>
+      <class name="financial.calculator.CreditCalculator" />
+    </classes>
+  </test>
+
+  <test name="financial.calculator.DepositCalculator" >
+    <classes>
+      <class name="financial.calculator.DepositCalculator" />
+    </classes>
+  </test>
+
+</suite>
